@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="nilnul._family_._SRC_._this.Master" %>
+
+<%@ Register Assembly="nilnul.web._js_.WEB._CTR_" Namespace="nilnul.web._js_.WEB._CTR_" TagPrefix="cc2" %>
+
+<%@ Register Assembly="nilnul._express_._compose_.WEB._CTR_" Namespace="nilnul._express_._compose_.WEB._CTR_._all.js.typed" TagPrefix="cc1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <cc2:JqueryNilnul ID="JqueryNilnul1" runat="server"></cc2:JqueryNilnul>
+    <cc1:_all_js_typed_ScriptSrc ID="_all_js_typed_ScriptSrc1" runat="server" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+            <asp:ContentPlaceHolder ID="torso" runat="server">
+            </asp:ContentPlaceHolder>
+ 
+</body>
+</html>
